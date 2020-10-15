@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment1</title>
+    <style>
+        body{
+            background-color:lightblue;
+        }
+        h1{
+            text-align: center;
+        }
+        nav{
+            background-color: cornflowerblue;
+            color: white;
+            font-size: 24;
+            text-align: center;
+            padding: 10px;
+        }
+        a{
+            background-color: cornflowerblue;
+            color: white;
+            padding: 10px;
+        }
+        img{
+            width: 100%;
+        }
+        form{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sandeep Resorts</h1>
+        <nav>
+            <a href="./homePage.html">Home</a>
+            <a href="./rooms.html">Rooms</a>
+            <a href="./facilities.html">Facilities</a>
+            <a href="./enquiry.html">Enquiry</a>
+            <a href="./aboutPage.html">About</a>
+        </nav>
+    </header>
+    <form>
+        <p><input type="text" placeholder="Enter your name" id="custName"></p>
+        <p><input type="tel" placeholder="Enter phone number" id="custNum"></p>
+        <p><input type="email" placeholder="Enter email id" id="custEmail"></p>
+        <p><input type="date" placeholder="Enter date of check-in" id="custCheckinDate"></p>
+        <p><input type="number" placeholder="Enter number of days of stay" id="custNumOfDays"></p>
+        <p>Food type:<input type="radio" name="custFood">Veg <input type="radio" name="custFood" id="">Non-Veg</p>
+        <p>Life style: 
+            <input type="checkbox" name="custStyle" id="">Spa 
+            <input type="checkbox" name="custStyle" id="">Pool
+            <input type="checkbox" name="custStyle" id="">Drinks
+        </p>
+        <p>Pick and drop from airport:
+            <input type="radio" name="custPickup" id="">Yes
+            <input type="radio" name="custPickup" id="">No
+        </p>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
